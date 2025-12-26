@@ -1,17 +1,31 @@
 # 🇧🇷 Brazilian E-Commerce Analysis Dashboard
 
 ## 📌 Project Overview
-An end-to-end Data Analysis project using the Olist Dataset (96k+ orders) to uncover insights into sales performance and customer satisfaction.
+This project provides a comprehensive analysis of the **Olist E-Commerce dataset**, covering over **96,000 orders** from 2016 to 2018. The goal was to transform raw transactional data into actionable business insights using Power BI, focusing on sales performance, regional distribution, and customer satisfaction.
 
-## 🚀 Key Features
-- **Sales Intelligence:** Analyzed $13.59M in revenue with focus on SP & RJ regions.
-- **Logistics Deep-Dive:** Identified a critical correlation between delivery delays and low review scores.
-- **Tech Stack:** Power BI, Power Query (ETL), Star Schema Modeling, Advanced DAX.
+## 🚀 Key Business Insights
+- **Revenue Intelligence:** Analyzed a total of **$13.59M in revenue**, identifying São Paulo (SP) and Rio de Janeiro (RJ) as the top-performing regions.
+- **Logistics Bottleneck:** Uncovered a critical correlation—an average delivery delay of **11.88 days** directly resulted in a significant drop in customer review scores.
+- **Product Performance:** Identified `Health_Beauty` and `Watches_Gifts` as the most profitable categories.
+
+## 🛠️ Technical Stack & Skills
+- **ETL Process:** Used **Power Query** for data cleaning, handling missing values, and data type normalization.
+- **Data Modeling:** Implemented a **Star Schema** to establish efficient relationships between 9 relational tables.
+- **DAX:** Developed advanced measures for dynamic KPIs (Total Sales, Avg Delivery Time, YoY Growth).
+- **UI/UX:** Created an interactive 2-page dashboard with **Page Navigation, Sync Slicers, and Conditional Formatting**.
 
 ## 📊 Dashboard Preview
-*(Yahan aap apne dashboard ka ek screenshot ya image link daal sakte hain)*
+*(Note: I have uploaded the screenshots of the dashboard in the images folder of this repository)*
 
-## 🛠️ Implementation Steps
-1. **Data Cleaning:** Handled nulls and date formatting in Power Query.
-2. **Modeling:** Established a Star Schema for efficient filtering.
-3. **Analysis:** Created DAX measures for KPIs like Avg Delivery Delay, Total Revenue, and YoY Growth.
+- **Page 1:** Sales & Regional Overview
+- **Page 2:** Logistics & Customer Sentiment Analysis
+
+## 📁 Project Resources
+Due to GitHub's file size limitations for browser uploads, the full dataset and the original `.pbix` file are hosted on Google Drive:
+
+🔗 **[Click Here to Access Power BI File & Datasets](https://drive.google.com/drive/folders/1sIg_VBThcX6XB8wB3JVuw8nfhfFNo2_G?usp=drive_link)**
+
+---
+**Developed by:** Deepanshu Dongre  
+**Role:** Data Analyst  
+**Connect with me on [LinkedIn](www.linkedin.com/in/deepanshu-dongre)**
